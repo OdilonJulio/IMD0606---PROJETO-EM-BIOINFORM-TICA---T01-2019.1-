@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2019.6.13)  14 JUN 2019 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.13)  14 JUN 2019 21:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,10 +80,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
@@ -439,7 +439,7 @@ Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -502,20 +502,12 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Item=\count97
 \c@Hfootnote=\count98
 )
-Package hyperref Info: Driver (default): hdvips.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2018/02/06 v6.86b Hyperref driver for dvips
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2018/02/06 v6.86b Hyperref definitions for pdfmark specials
-\pdf@docset=\toks18
-\pdf@box=\box26
-\pdf@toks=\toks19
-\pdf@defaulttoks=\toks20
-\HyField@AnnotCount=\count99
-\Fld@listcount=\count100
-\c@bookmark@seq@number=\count101
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count99
+\c@bookmark@seq@number=\count100
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -523,13 +515,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count102
+\c@NAT@ctr=\count101
 )
 (./abstractProjectBioInfo.aux
 
@@ -537,6 +529,9 @@ LaTeX Warning: Label `sec:firstpage' multiply defined.
 
 
 LaTeX Warning: Label `sec:firstpage' multiply defined.
+
+
+LaTeX Warning: Label `fig:TesteNorm' multiply defined.
 
 
 ! Package natbib Error: Bibliography not compatible with author-year citations.
@@ -548,7 +543,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...mand\NAT@force@numbers{}\NAT@force@numbers
+l.43 ...mand\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -556,28 +551,28 @@ or select author-year BibTeX style, e.g. plainnat
 )
 \openout1 = `abstractProjectBioInfo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -608,139 +603,161 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen121
+\scratchbox=\box26
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen122
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 29.
+
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count103
+\c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./abstractProjectBioInfo.out) (./abstractProjectBioInfo.out)
 \@outlinefile=\write3
 \openout3 = `abstractProjectBioInfo.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 29.
+(Font)              <6> on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 32.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 30.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 33.
+<pdl1.jpg, id=16, 1284.8pt x 381.425pt>
+File: pdl1.jpg Graphic file (type jpg)
+<use pdl1.jpg>
+Package pdftex.def Info: pdl1.jpg  used on input line 52.
+(pdftex.def)             Requested size: 426.79135pt x 126.7029pt.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 53.
 
-Overfull \hbox (4.90659pt too wide) in paragraph at lines 61--64
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pdl1.jpg>]
+Overfull \hbox (4.90659pt too wide) in paragraph at lines 71--73
  \OT1/ptm/b/n/13 2 Ob-je-tivos[][] \OT1/ptm/m/n/12 Di-ante da jus-ti-fica-tiva 
 acima, o ob-je-tivo cen-tral dessa an[]alise ini-cial []e quan-
  []
 
-[1
+<plot_histogramas.jpeg, id=30, 803.0pt x 803.0pt>
+File: plot_histogramas.jpeg Graphic file (type jpg)
+<use plot_histogramas.jpeg>
+Package pdftex.def Info: plot_histogramas.jpeg  used on input line 82.
+(pdftex.def)             Requested size: 298.75264pt x 298.75948pt.
+<plot_histograma2.jpeg, id=32, 803.0pt x 803.0pt>
+File: plot_histograma2.jpeg Graphic file (type jpg)
+<use plot_histograma2.jpeg>
+Package pdftex.def Info: plot_histograma2.jpeg  used on input line 96.
+(pdftex.def)             Requested size: 298.75264pt x 298.75948pt.
 
-]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-! LaTeX Error: Cannot determine size of graphic in pdl1.jpg (no BoundingBox).
+[2 <./plot_histogramas.jpeg>]
+<plot_testeNorm.jpeg, id=40, 803.0pt x 803.0pt>
+File: plot_testeNorm.jpeg Graphic file (type jpg)
+<use plot_testeNorm.jpeg>
+Package pdftex.def Info: plot_testeNorm.jpeg  used on input line 108.
+(pdftex.def)             Requested size: 213.39568pt x 213.39436pt.
+ [3 <./plot_histograma2.jpeg> <./plot_testeNorm.jpeg>]
+<plot_AnaliseSobrevida.jpeg, id=47, 803.0pt x 803.0pt>
+File: plot_AnaliseSobrevida.jpeg Graphic file (type jpg)
+<use plot_AnaliseSobrevida.jpeg>
+Package pdftex.def Info: plot_AnaliseSobrevida.jpeg  used on input line 117.
+(pdftex.def)             Requested size: 213.39568pt x 213.39436pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ...ludegraphics[width=1 \textwidth]{pdl1.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (59.09886pt too wide) in paragraph at lines 130--131
+[]\OT1/ptm/m/n/12 Mais informa[][]oes que jus-ti-fi-cam essa an[]alise po-dem s
+er en-con-tradas em ([]),
+ []
 
-File: pdl1.jpg Graphic file (type eps)
-<pdl1.jpg>
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 93.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
+(./abstractProjectBioInfo.bbl [4 <./plot_AnaliseSobrevida.jpeg>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 M
-       ais informações que justificam essa análise podem ser encontradas ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(./abstractProjectBioInfo.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
- [2] [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
- (./abstractProjectBioInfo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+(./abstractProjectBioInfo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `abstractProjectBioInfo.out' has not changed.
 
-(rerunfilecheck)             Checksum: 08BC1F09336C31845827C5150115BFD6;248.
+(rerunfilecheck)             Checksum: EFD1A8A9C4B6ACA47B8DC896F3FBA87F;137.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 6028 strings out of 494881
- 86505 string characters out of 6179627
- 178682 words of memory out of 5000000
- 9300 multiletter control sequences out of 15000+600000
- 13006 words of font info for 36 fonts, out of 8000000 for 9000
+ 6478 strings out of 494880
+ 93214 string characters out of 6179601
+ 179550 words of memory out of 5000000
+ 9706 multiletter control sequences out of 15000+600000
+ 21033 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 30i,8n,28p,2241b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,25p,540b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on abstractProjectBioInfo.pdf (5 pages, 315980 bytes).
+PDF statistics:
+ 94 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on abstractProjectBioInfo.dvi (3 pages, 15084 bytes).

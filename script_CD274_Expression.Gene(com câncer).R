@@ -53,18 +53,25 @@ median(LungExpGen$Exp_Z_CD274)
 median(SkinExpGen$Exp_Z_CD274)
 
 # Histogramas e outros gráficos
+jpeg("plot_histogramas.jpeg", pointsize = 20, width = 800, height = 800)
 par(mfrow = c(1, 2)) # Possibilita visualizar vários plots ao mesmo tempo.
 hist(LungExpGen$Exp_Z_CD274, nclass=500, main="Lung")
 hist(SkinExpGen$Exp_Z_CD274, nclass=500, main="Skin")
+dev.off()
 
+jpeg("plot_testeNorm.jpeg", pointsize = 20, width = 800, height = 800)
+par(mfrow = c(1, 2))
 qqnorm(LungExpGen$Exp_Z_CD274, main="Lung")
 qqline(LungExpGen$Exp_Z_CD274, col='red')
 qqnorm(SkinExpGen$Exp_Z_CD274, main="Skin")
 qqline(SkinExpGen$Exp_Z_CD274, col='red')
+dev.off()
 
-
+jpeg("plot_histograma2.jpeg", pointsize = 20, width = 800, height = 800)
+par(mfrow = c(1, 2))
 hist(LungExpGen$Exp_Z_CD274, prob = T, nclass=50, main="Lung")
 hist(SkinExpGen$Exp_Z_CD274, prob = T, nclass=50, main="Skin")
+dev.off()
 
 par(mfrow = c(1, 1))
 
@@ -114,6 +121,11 @@ SurvLungMin <- mutate(SurvLungMin, Calda = "Subexpresso"); SurvLungMin
 # SurvLung <- mutate(SurvLungMax, SURVIVALMin = SurvLungMin$SURVIVALMin); SurvLung
 SurvLungMerge <- merge(SurvLungMax, SurvLungMin, all = TRUE); SurvLungMerge
 
-fit <- survfit(Surv(SURVIVAL) ~ Calda, data = SurvLungMerge)
+jpeg("plot_AnaliseSobrevida.jpeg", pointsize = 20, width = 800, height = 800)
 
-autoplot(fit)
+fit <- survfit(Surv(SURVIVAL) ~ Calda, data = SurvLungMerge)
+Exp <- as.character(rev(unique(SurvLungMerge$Calda)))
+plot(fit, col=c(1:2), xlab="time(months)", ylab="Survival Probablity",lwd=1, conf.int = F)
+legend(30, 1, Exp, col=c(1:2), lwd = 0.6)
+
+dev.off()
