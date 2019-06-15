@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.13)  14 JUN 2019 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.13)  14 JUN 2019 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,21 +551,21 @@ or select author-year BibTeX style, e.g. plainnat
 )
 \openout1 = `abstractProjectBioInfo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -634,7 +634,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -644,49 +644,49 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./abstractProjectBioInfo.out) (./abstractProjectBioInfo.out)
 \@outlinefile=\write3
 \openout3 = `abstractProjectBioInfo.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 32.
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 32.
 <pdl1.jpg, id=16, 1284.8pt x 381.425pt>
 File: pdl1.jpg Graphic file (type jpg)
 <use pdl1.jpg>
-Package pdftex.def Info: pdl1.jpg  used on input line 52.
+Package pdftex.def Info: pdl1.jpg  used on input line 51.
 (pdftex.def)             Requested size: 426.79135pt x 126.7029pt.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 53.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pdl1.jpg>]
-Overfull \hbox (4.90659pt too wide) in paragraph at lines 71--73
+Overfull \hbox (4.90659pt too wide) in paragraph at lines 70--72
  \OT1/ptm/b/n/13 2 Ob-je-tivos[][] \OT1/ptm/m/n/12 Di-ante da jus-ti-fica-tiva 
 acima, o ob-je-tivo cen-tral dessa an[]alise ini-cial []e quan-
  []
@@ -694,12 +694,12 @@ acima, o ob-je-tivo cen-tral dessa an[]alise ini-cial []e quan-
 <plot_histogramas.jpeg, id=30, 803.0pt x 803.0pt>
 File: plot_histogramas.jpeg Graphic file (type jpg)
 <use plot_histogramas.jpeg>
-Package pdftex.def Info: plot_histogramas.jpeg  used on input line 82.
+Package pdftex.def Info: plot_histogramas.jpeg  used on input line 81.
 (pdftex.def)             Requested size: 298.75264pt x 298.75948pt.
 <plot_histograma2.jpeg, id=32, 803.0pt x 803.0pt>
 File: plot_histograma2.jpeg Graphic file (type jpg)
 <use plot_histograma2.jpeg>
-Package pdftex.def Info: plot_histograma2.jpeg  used on input line 96.
+Package pdftex.def Info: plot_histograma2.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 298.75264pt x 298.75948pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -708,28 +708,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <plot_testeNorm.jpeg, id=40, 803.0pt x 803.0pt>
 File: plot_testeNorm.jpeg Graphic file (type jpg)
 <use plot_testeNorm.jpeg>
-Package pdftex.def Info: plot_testeNorm.jpeg  used on input line 108.
+Package pdftex.def Info: plot_testeNorm.jpeg  used on input line 107.
 (pdftex.def)             Requested size: 213.39568pt x 213.39436pt.
  [3 <./plot_histograma2.jpeg> <./plot_testeNorm.jpeg>]
 <plot_AnaliseSobrevida.jpeg, id=47, 803.0pt x 803.0pt>
 File: plot_AnaliseSobrevida.jpeg Graphic file (type jpg)
 <use plot_AnaliseSobrevida.jpeg>
-Package pdftex.def Info: plot_AnaliseSobrevida.jpeg  used on input line 117.
+Package pdftex.def Info: plot_AnaliseSobrevida.jpeg  used on input line 116.
 (pdftex.def)             Requested size: 213.39568pt x 213.39436pt.
 
-Overfull \hbox (59.09886pt too wide) in paragraph at lines 130--131
+Overfull \hbox (59.09886pt too wide) in paragraph at lines 129--130
 []\OT1/ptm/m/n/12 Mais informa[][]oes que jus-ti-fi-cam essa an[]alise po-dem s
 er en-con-tradas em ([]),
  []
 
 (./abstractProjectBioInfo.bbl [4 <./plot_AnaliseSobrevida.jpeg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 
 (./abstractProjectBioInfo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `abstractProjectBioInfo.out' has not changed.
 
 (rerunfilecheck)             Checksum: EFD1A8A9C4B6ACA47B8DC896F3FBA87F;137.
@@ -737,16 +737,16 @@ Package rerunfilecheck Info: File `abstractProjectBioInfo.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
  6478 strings out of 494880
  93214 string characters out of 6179601
- 179550 words of memory out of 5000000
+ 179557 words of memory out of 5000000
  9706 multiletter control sequences out of 15000+600000
  21033 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 30i,10n,25p,540b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,25p,540b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -754,7 +754,7 @@ pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on abstractProjectBioInfo.pdf (5 pages, 315980 bytes).
+Output written on abstractProjectBioInfo.pdf (5 pages, 315842 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
