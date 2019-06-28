@@ -38,7 +38,7 @@ Statistical Analysis of CD274 Gene Expression in Tissues with Cancer}
      
 \begin{resumo} 
  Trata-se da análise da possível correlação existente entre a expressão gênica
- do gene PD-L1 (CD274) em tecidos com câncer, mais especificamente, neste caso,
+ do gene PD-L1 (CD274) e seus fatores de transcrição em tecidos com câncer, mais especificamente, neste caso,
  câncer de pele e de pulmão, de cerca de 500 indivíduos e a suas respectivas 
  sobrevidas, após diagnosticados. 
 \end{resumo}
@@ -62,13 +62,20 @@ do organismo diante de antígenos.
 Dentre as possibilidades de tratamento de alguns tipos de câncer, segue emergente
 a terapia baseada na tentativa de regular a expressão gênica do PD-L1. Desta forma, 
 a análise apresentada a seguir é um estudo introdutório que visa descobrir, estatisticamente,
- se há relação entre a sobrevida de indivíduos com dois tipos de câncer específicos 
- (pulmão e pele) e a expressão do gene CD274 nos referidos tecidos.
+ se há relação entre a sobrevida de indivíduos com dois tipos de câncer específicos -
+ pulmão (lung adenocarcinoma) e pele (skin melanoma) - e a expressão do gene CD274 e de seus fatores de transcrição nos referidos tecidos.
 
 \section{Objetivos} \label{sec:firstpage}
 
 Diante da justificativa acima, o objetivo central dessa análise inicial é quantificar o quão importante é, para o tratamento de alguns tipos de câncer, o controle ou regulação da expressão gênica do gene CD274
 por meio de inibidores (anti-PDL1).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{table_TFs.jpg}
+\caption{Tabela montada com todos os fatores de transcrição do Gene CD274 e a médidas de R-Pearson em ambos os tecidos.}
+\label{fig:TesteNorm}
+\end{figure}
 
 Especificamente, e paralelamente, foram analisados os dois tecidos
 com câncer, acima referidos. Mas pesquisas futuras estão direcionadas aos demais tecidos e, além disso,
@@ -88,19 +95,12 @@ relacionam pacientes que possuem, paralelamente, câncer de pulmão e de pele. E
 quantificada em RPKM (Reads Per Kilobase Million) a expressão do gene CD274, avaliada em algum momento do tratamento, e o tempo de vida do respectivo paciente, após diagnóstico, até o período da alimentação do banco 
 de dados ou, em caso de morte, do seu falecimento.
 
-
-
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7 \textwidth]{plot_histograma2.jpeg}
 \caption{Histogramas da Expressão Gênica do CD274 normalizado.}
 \label{fig:Hist2}
 \end{figure}
-
-Com intuito de permitir melhor avaliação e estudo dos dados, foi utilizado o \href{https://www.r-project.org/}{Software R} e suas principais bibliotecas com fim criar um \textit{script} padronizado que, futuramente, pode ser utilizado para avaliar outros pacientes.
-
-
-Com auxílio do R, os valores da expressão gênica dos indivíduos foram normalizados em \textbf{Z-Score} e ordenados. Em seguida, tal distribuição foi avaliada graficamente e, por meio do \textbf{Teste de Shapiro-Wilk}, constatou-se não se tratar de uma distribuição normal. Tal fato já aponta para a suspeita que a expressão gênica do CD 274 não segue um padrão "bem definido", pelo menos nesses pacientes, e que seus extremos não estão equidistantes do média expressão gênica.
 
 \begin{figure}[h!]
 \centering
@@ -109,12 +109,46 @@ Com auxílio do R, os valores da expressão gênica dos indivíduos foram normal
 \label{fig:TesteNorm}
 \end{figure}
 
-Continuando a análise, foram captados os indivíduos que representam os 5\% com maior expressão gênica e os 5\% com menor expressão. Tais indivíduos tiveram uma análise secundária, onde foi correlacionada a sobrevida de cada um, em meses, deles e seus respectivos valores (em Z-Score) de expressão do gene em tela. Após tal refino, foi possível conjecturar que há, de fato, em números, uma relação direta entre o gene CD274 estar superexpresso e a baixa sobrevida dos pacientes.
+Com intuito de permitir melhor avaliação e estudo dos dados, foi utilizado o \href{https://www.r-project.org/}{Software R} e suas principais bibliotecas com fim criar um \textit{script} padronizado que, futuramente, pode ser utilizado para avaliar outros pacientes.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.5\textwidth]{plot_AnaliseSobrevida.jpeg}
-\caption{Curva de Kaplan-Meier da Análise de Sobrevida.}
+\caption{Curva de Kaplan-Meier da Análise de Sobrevida do GENE CD274}
+\label{fig:TesteNorm}
+\end{figure}
+
+Com auxílio do R, os valores da expressão gênica dos indivíduos foram normalizados em \textbf{Z-Score} e ordenados. Em seguida, tal distribuição foi avaliada graficamente e, por meio do \textbf{Teste de Shapiro-Wilk}, constatou-se não se tratar de uma distribuição normal. Tal fato já aponta para a suspeita que a expressão gênica do CD 274 não segue um padrão "bem definido", pelo menos nesses pacientes, e que seus extremos não estão equidistantes do média expressão gênica.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{LungExpGen.png}
+\caption{Tabela montada juntando a expressão gênica dos principais fatores de transcrição do CD274, em relação ao tecido Lung Adenocarcinoma.}
+\label{fig:TesteNorm}
+\end{figure}
+
+Continuando a análise, foram captados os indivíduos que representam os 5\% com maior expressão gênica e os 5\% com menor expressão. Tais indivíduos tiveram uma análise secundária, onde foi correlacionada a sobrevida de cada um, em meses, deles e seus respectivos valores (em Z-Score) de expressão do gene em tela. Após tal refino, foi possível conjecturar que há, de fato, em números, uma relação direta entre o gene CD274 estar superexpresso e a baixa sobrevida dos pacientes.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{SkinExpGen.png}
+\caption{Tabela montada juntando a expressão gênica dos principais fatores de transcrição do CD274, em relação ao tecido Skin Melanoma.}
+\label{fig:TesteNorm}
+\end{figure}
+
+No entanto, se fez necessária a busca por dados relativos aos fatores de transcrição do CD274, bem como pela relação estatística entre eles e o próprio gene referido. A partir daí, uma análise numérica para encontrar os fatores de transcrição (TFs) que exercem uma forte correlação (positiva ou negativa) com o CD274 demonstraram que, dentre os cerca de 800 TFs, apenas pouco mais de três dezenas deles pertenciam ao grupo de interesse, juntamente dados de ambos os tecidos (pulmão e pele).
+
+
+Com isso, fazendo referência ao mesmo grupo de pacientes e mesmos tecidos, foi analisado um novo dado: a expressão gênica de cada fator de transcrição. Diante de um grande número de caminhos possíveis de serem seguidos, decidimos avaliar somente a expressão dos TFs nos pacientes que apresentaram maior e menor expressão gênica do CD274, a fim de verificar mais detalhadamente tal correlação.
+
+Desta forma, fazendo verificações similares às que foram inicialmente feitas com o gene CD274, chegamos à conclusão estatística, diante de um p-valor abaixo de 5\%, que há uma forte correlação entre a sobrevida dos pacientes e superexpressão de um único gene: BCL3. Mesmo alterando filtros e refazendo os testes, apenas o fator de transcrição citado demonstrou essa correlação. 
+
+Diante da expectativa de serem encontrados mais genes (TFs) que possuam sua expressão gênica fortemente relacionada à sobrevida de pacientes, resta buscar futuramente novos dados e repetir os testes com intuito de diminuir o leque de apresentadas neste estudo preliminar. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{Kaplan-Meier_GeneBCL3.jpeg}
+\caption{Curva de Kaplan-Meier da Análise de Sobrevida do Fator de Transcrição BCL3.}
 \label{fig:TesteNorm}
 \end{figure}
 
@@ -124,9 +158,11 @@ Desta forma, essa investigação, pelo pequeno número de amostras até então a
 
 Por fim, vale salientar que foram avaliados pacientes que ainda possuíam o câncer e/ou faleceram em decorrência da doença, já que apenas ficou perceptível que o gene pode estar superexpresso em indivíduos livres da doença.
 
-Há, então, uma proposta de criação de script padronizado ou software que faça tais análises estatísticas, tratando o dado e verificando a expressão de genes sua relação com a sobrevida do paciente com câncer, apresentando, por fim, a curva de subrevida do Kaplan-Meier. 
+Há, então, uma proposta de criação de script padronizado ou software que faça tais análises estatísticas, tratando o dado e verificando a expressão de genes sua relação com a sobrevida do paciente com câncer, apresentando, por fim, a curva de subrevida do Kaplan-Meier.
 
-Mais informações que justificam essa análise podem ser encontradas em \cite{brahmer2012safety}, \cite{reck2016pembrolizumab}, \cite{iwai2002involvement} e outros que facilmente podem ser encontrados em conteúdo público.
+Tal análise foi possível, diante do auxílio principal do Prof. Tetsu Nakamoto (Instituto Metrópole Digital - UFRN) e da bolsista de iniciação científica, Jheynne Laína, do BioMe (Bioinformatics Multidisciplinary Environment - UFRN), os quais ajudaram, tanto fornecendo dados e informações, como sugerindo métodos e testes estatísticos para uma verificação mais detalhada.  
+
+Mais informações que justificam e embasam essa análise podem ser encontradas em \cite{brahmer2012safety}, \cite{reck2016pembrolizumab}, \cite{iwai2002involvement} e outros que facilmente podem ser encontrados em conteúdo público.
 
 \bibliographystyle{sbc}
 \bibliography{ref}
